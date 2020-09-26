@@ -82,6 +82,7 @@ main {
   background: #333;
   color: #fff;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 #header h2 {
@@ -108,4 +109,25 @@ footer {
 footer h3 {
   font-size: 3rem;
   margin-bottom: 0;
+}
+
+@media (min-width: 500px) {
+  #landing {
+    display: flex;
+    height: 100%;
+  }
+
+  #landing-text {
+    height: 100vh;
+  }
+  #landing-image {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 700px) {
+  .btn {
+    padding: 1rem 3rem;
+    font-size: 1.4rem;
+  }
 }
