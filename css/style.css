@@ -52,8 +52,8 @@ main {
 }
 
 #landing-image {
-  background: url(https://source.unsplash.com/De8wMYoSSBc) ;
-  background-position:  center;
+  background: url(https://source.unsplash.com/De8wMYoSSBc);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 50vh;
@@ -74,4 +74,38 @@ main {
 
 .btn:hover {
   background: #f4f4f4;
+}
+
+#header {
+  padding: 1.5rem;
+  text-align: center;
+  background: #333;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+#header h2 {
+  border-left: dotted 1px #fff;
+  border-right: dotted 1px #fff;
+  display: inline-block;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.caption {
+  padding: 0.8rem;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: auto;
+  color: #333;
+  padding-top: 0;
+}
+
+footer h3 {
+  font-size: 3rem;
+  margin-bottom: 0;
 }
